@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+  }
+  header {
+    background-image: linear-gradient(to right, #2e3192 , #ec008c);
+    padding-bottom: 70px;
+  }
+  header ul {
+    float: left;
+    color: #ffffff;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  header p {
+    display: inline-block;
+  }
+  .heroImg {
+    padding: 0px 0px;
+    color: #000000;
+  }
+  .content {
+    max-width: 100%;
+    min-width: 45.82%;
+    margin: 0 auto;
+    padding-left: 425px;
+    padding-right: 425px;
+    background-color: #000000;
+    text-align: center;
+    -webkit-text-fill-color: #ffffff;
+    display: inline-block;
+  }
+  footer {
+    background-color: #000000;
+    padding: 5px;
+    color: white;
+    text-align: center;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+  .heading {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 30px;
+  }
+  /* My UX Skills Section */
+  .flexContainer {
+    display: flex;
+    padding: 60px 30px;
+    background-color: #2e3192;
+    -webkit-text-fill-color: #ffffff;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+  
+  /* My Work Section */
+  .myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #000000;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+   
+  }
+  .workGrid img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img1, .img2, .img3, .content1, .content2, .content3 {
+    padding: 50px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
+  }
+  
