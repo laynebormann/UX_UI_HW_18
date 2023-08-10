@@ -63,16 +63,17 @@ body {
   }
   
   /* My Work Section */
-  .myWork {
+ .myWork {
     padding: 60px 30px;
     padding-top: 0;
     background-color: #000000;
+    -webkit-text-fill-color: #ffffff;
   }
   .workGrid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 350px 350px 350px;
-    grid-template-areas:
+    grid-template-rows: 500px 500px;
+    grid-template-areas: grid
    
   }
   .workGrid img {
@@ -102,4 +103,6 @@ body {
   .content3 {
     grid-area: content3;
   }
-  
+  @media only screen and (max-width: 600)
+  {grid-template-rows: 300px 300px 300px; 
+grid-template-columns; 1fr}
